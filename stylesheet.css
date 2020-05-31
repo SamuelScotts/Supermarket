@@ -1,0 +1,66 @@
+/* PRODUCT DISPLAY AREA */
+#product-area{
+    background-color: #eeeeee;
+    height: 100%;
+    padding-top: 3vh;
+}
+
+#minus{
+    float:left;
+}
+
+#quantity-bar{
+    display: center;
+    float:left;
+    width: 50px;
+    height: 30px;
+}
+
+#plus{
+float:left;
+margin-left: -8px;
+}
+
+#question-icon{
+    padding-bottom: 30px;
+}
+
+/* BASKET DISPLAY AREA */
+#basket-area{
+    background-color: #dddddd;
+    height: 90vh;
+    border: 2px solid #a3a3a3;
+    overflow:scroll;
+}
+
+#basket-total{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    height: 8vh;
+    background-color: #bbbbbb;
+    text-align: center;
+    border: 1px solid #a3a3a3;
+    border-radius: 5px;
+}
+
+#discount-area{
+    margin-top: 1vh;
+    background-color: #bbbbbb;
+}
+
+/* NAVIGATION BAR */
+#navbar{
+    margin-left: -15px;
+    margin-right: -15px;
+    background-color: #ffffff;
+
+}
+
+#title-logo{
+    margin-left: -3vh;
+}
+
+#input-bar{
+    margin-left: 10vh;
+}
+

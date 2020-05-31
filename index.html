@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link href = "stylesheet.css" rel = "stylesheet" type = "text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/8dbfaadc29.js" crossorigin="anonymous"></script>
+
+    <title>Your Supermarket</title>
+</head>
+<body>
+
+    <div class="container-lg" id="container">
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="navbar navbar-expand-lg" id="navbar">
+                    <a href="./index.html"><img id="title-logo" src="./img/logo.png" style="max-height: 6vh"></a>
+                    <form class="form-inline">
+                        <input class="form-control mr-sm-2" type="text" id="input-bar" placeholder="Search for an item"> 
+                        <button type="button" class="btn btn-dark my-2 my-sm-0" disabled id="submit">
+                            Search
+                        </button>
+                    </form>
+                </nav>
+            </div>
+        </div>
+
+
+        <div class="row">
+
+
+            <div class="col-md-9 order-md-1" id="product-area">
+                <div id="product"></div>
+                <div id="slots"></div>
+                <div id="purchaseForm"></div>
+            </div>
+
+
+            <div class="col-md-3 order-md-2" id="basket-area">
+                <div id="basket-total">Your basket is currently empty.</div>
+                    
+                <button type="button" class="btn btn-dark btn-sm btn-block" disabled id="checkout">Checkout</button>
+
+                <div id="basket"></div>
+
+                <form class="card p-2" id="discount-area">
+                    <div class="input-group">
+                      <input type="text" class="form-control" placeholder="Promo code">
+                      <div class="input-group-append">
+                        <button type="button" class="btn btn-dark btn-sm" disabled id="redeem">Redeem</button>
+                      </div>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src = "app.js"></script>
+    <script type="text/javascript" src = "./components/products.js"></script>
+    <script type="text/javascript" src = "./components/checkout.js"></script>
+    <script type="text/javascript" src = "./components/basket.js"></script>
+    <script type="text/javascript" src = "./components/slots.js"></script>
+    <script type="text/javascript" src = "./components/display.js"></script>
+
+
+</body>
+
+
+
+</html>
